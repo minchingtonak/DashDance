@@ -21,7 +21,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VCExample.cpp">
+    <ClCompile Include="DashDance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VCExample.h">
+    <ClInclude Include="DashDance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

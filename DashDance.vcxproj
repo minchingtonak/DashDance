@@ -14,6 +14,7 @@
     <ProjectGuid>{44A11396-011B-4CD1-9755-340B41B5849E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>DashDance</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -56,11 +57,12 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Users\akmin\source\repos\icsneovcex\FMOD\inc</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)VCExample.exe</OutputFile>
+      <OutputFile>$(OutDir)DashDance.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)VCExample.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)DashDance.pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -75,7 +77,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)VCExample.exe</OutputFile>
+      <OutputFile>$(OutDir)DashDance.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -91,13 +93,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
       </PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="VCExample.cpp" />
+    <ClCompile Include="DashDance.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="icsneo40DLLAPI.h" />
     <ClInclude Include="icsnVC40.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="VCExample.h" />
+    <ClInclude Include="DashDance.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />

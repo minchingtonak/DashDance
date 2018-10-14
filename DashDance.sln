@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VCExample", "VCExample.vcxproj", "{44A11396-011B-4CD1-9755-340B41B5849E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DashDance", "DashDance.vcxproj", "{44A11396-011B-4CD1-9755-340B41B5849E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

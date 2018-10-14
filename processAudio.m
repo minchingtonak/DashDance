@@ -21,4 +21,4 @@ averagedY = filter(kernel, 1, processedY);
 downsampledY = downsample(averagedY, 1024);
 
 % outputs amplitude values into txt file needed for parsing from C++ files
-csvwrite('music3.txt', downsampledY);
+csvwrite(unitedwedance.txt', downsampledY);
